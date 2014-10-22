@@ -1,0 +1,26 @@
+Optimization terminated successfully.
+         Current function value: 0.692085
+         Iterations 3
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  998
+Model:                          Logit   Df Residuals:                      995
+Method:                           MLE   Df Model:                            2
+Date:                Wed, 22 Oct 2014   Pseudo R-squ.:                0.001347
+Time:                        17:27:56   Log-Likelihood:                -690.70
+converged:                       True   LL-Null:                       -691.63
+                                        LLR p-value:                    0.3939
+==============================================================================
+                 coef    std err          z      P&gt;|z|      [95.0% Conf. Int.]
+------------------------------------------------------------------------------
+Lag1          -0.0556      0.052     -1.076      0.282        -0.157     0.046
+Lag2          -0.0445      0.052     -0.861      0.389        -0.146     0.057
+Intercept      0.0322      0.063      0.508      0.611        -0.092     0.156
+==============================================================================
+There were 252 total predictions
+
+55.95 percent of the total predictions were correct
+
+0.58 percent of the predicted Up movements were correct
+
+0.50 percent of the predicted Down movements were correct
